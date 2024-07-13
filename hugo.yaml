@@ -1,4 +1,62 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Asophos
+paginate: 5
 theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  title: Asophos
+  description: "This is my personal blog where I write about my learnings, experiences, projects, and latest news in cybersecurity."
+  keywords:
+    [
+      Blog,
+      Cybersecurity,
+      Cyber,
+      Threat,
+      Intelligence,
+      Security,
+      Infosec,
+      Penetration,
+      SOC,
+      Blue,
+      Incident,
+      Response,
+      Forensics,
+    ]
+  author: "Sahil Poonia"
+
+  homeInfoParams:
+    title: "Hello, World! 👋"
+    content: "Here I will write about my learnings, experiences, projects, and latest news in cybersecurity. Stay tuned!"
+
+  socialIcons:
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/sahilpoonia/"
+    - name: "Email"
+      url: "mailto:asophos.rage533@aleeas.com"
+
+  ShowShareButtons: true
+  ShareButtons: ["twitter", "linkedin", "reddit"]
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  showtoc: true
+  tocopen: false
+  ShowRssButtonInSectionTermList: true
+
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 10
