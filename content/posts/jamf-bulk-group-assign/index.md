@@ -282,4 +282,4 @@ print(response.content)  # Print the raw response content (may be helpful for de
 
 Jamf Pro is a powerful tool for managing Apple devices in an enterprise environment. By using the Jamf API, you can automate various tasks and integrate Jamf Pro with other systems as well as do things that are not possible through the Jamf Pro web interface. We hope this guide has been helpful in understanding the power of using an API and writing a little script to automate tasks and make your life easier :)
 
-Thank you for reading this guide on updating a Jamf Pro computer group using Python. We hope this guide has been helpful in understanding how to interact with the Jamf API and automate tasks using Python. If you have any questions or feedback, please feel free to reach out to us, the email address is provided on the home page. We are always happy to help! Happy coding! 🚀
+Thank you for reading this guide. If you have any questions or feedback, please feel free to reach out to us, the email address is provided on the home page. We are always happy to help! Happy coding! 🚀
