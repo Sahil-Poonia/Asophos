@@ -29,8 +29,6 @@ We'll use Python to interact with the Jamf Pro API, allowing us to programmatica
 
 Before we can start with the script, we need to create a new API Role and API Client in Jamf Pro. This client will provide the necessary credentials to authenticate our script with the Jamf API.
 
-**TODO:** Add screenshots
-
 ### Create an API Role
 
 API Roles define the permissions that an API Client has when interacting with the Jamf API.
