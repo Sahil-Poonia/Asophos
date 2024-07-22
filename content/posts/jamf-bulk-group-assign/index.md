@@ -126,7 +126,7 @@ The script reads computer names from a CSV file, constructs an XML payload, and 
   ACCESS_TOKEN = "" # Access token for authenticating with the Jamf Pro API (will be obtained later)
 
   config = {
-      **dotenv_values(".env.shared"),  # load config variables
+      **dotenv_values(".env.config"),  # load config variables
       **dotenv_values(".env.secret"),  # load sensitive variables
   }
   ```
@@ -217,7 +217,7 @@ CSV_PATH = sys.argv[3] if len(sys.argv) > 3 else ""    # Path to the CSV file co
 ACCESS_TOKEN = "" # Access token for authenticating with the Jamf Pro API (will be obtained later)
 
 config = {
-    **dotenv_values(".env.shared"),  # load config variables
+    **dotenv_values(".env.config"),  # load config variables
     **dotenv_values(".env.secret"),  # load sensitive variables
 }
 
