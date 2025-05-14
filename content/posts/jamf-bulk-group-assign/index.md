@@ -1,7 +1,7 @@
 +++
 title = 'Automate Jamf Device Management: Python Script for Bulk Static Group Assignment'
 date = 2024-07-19T06:46:16+05:30
-author = ["Sahil Poonia", "Tanuj"]
+author = ["Sahil Poonia"]
 draft = false
 tags = ["Automation", "Jamf"]
 description = ''
